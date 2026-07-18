@@ -1,0 +1,172 @@
+{
+  "meta": {
+    "generatedAt": "2026-07-17T18:14:23.320Z",
+    "productsRoot": "C:\\ERP\\mobile-products",
+    "productCount": 10,
+    "skippedCount": 26,
+    "scannerVersion": "4.1.0",
+    "mode": "Public-ready working products only"
+  },
+  "products": [
+    {
+      "name": "BookWise OS",
+      "slug": "bookwise-os",
+      "category": "Career & Learning",
+      "description": "Turn reading into practical knowledge. BookWise OS organises original book insights into a searchable personal learning system designed for reflection and action.",
+      "functions": [
+        "Browse a searchable library of original book summaries",
+        "Open detailed learning pages for each book",
+        "Organise practical lessons and memorable insights",
+        "Build a personal knowledge collection over time"
+      ],
+      "privacy": "Offline / local-first",
+      "audience": "Readers who want to retain and apply the most useful ideas from books",
+      "publicUrl": "",
+      "icon": "generated/icons/bookwise-os-project.png"
+    },
+    {
+      "name": "CareerReady 360",
+      "slug": "careerready-360",
+      "category": "Career & Learning",
+      "description": "Turn career ambition into a clear plan. CareerReady 360 brings role selection, skills, CV preparation, interview practice, and application tracking into one guided experience.",
+      "functions": [
+        "Choose a target role and follow a structured readiness roadmap",
+        "Build stronger CV content and practise interview answers",
+        "Track applications, skills, and daily career actions",
+        "Measure progress through a complete readiness view"
+      ],
+      "privacy": "Offline / local-first",
+      "audience": "Students, graduates, career changers, and active job seekers",
+      "publicUrl": "",
+      "icon": "generated/icons/careerready-360-offline.png"
+    },
+    {
+      "name": "FindMyStuff",
+      "slug": "findmystuff",
+      "category": "Organisation & Productivity",
+      "description": "Know exactly where your belongings are stored. FindMyStuff turns boxes, cupboards, rooms, and personal items into a searchable private inventory.",
+      "functions": [
+        "Record an item together with its exact storage location",
+        "Search by item, owner, box, room, or category",
+        "Add photographs and useful notes",
+        "Import, export, back up, and restore the inventory"
+      ],
+      "privacy": "Offline / local-first",
+      "audience": "People and families who want to organise belongings and find them quickly",
+      "publicUrl": "",
+      "icon": "generated/icons/findmystuff.png"
+    },
+    {
+      "name": "LifeCompass 15",
+      "slug": "lifecompass-15",
+      "category": "Life & Personal Growth",
+      "description": "Step back, understand where you are, and choose what comes next. LifeCompass 15 guides users through a private 15-day review of the areas shaping their life.",
+      "functions": [
+        "Reflect on work, family, body, money, relationships, home, and purpose",
+        "Capture personal situations through guided questions",
+        "See patterns through scores, charts, and timelines",
+        "Build motivation through small, focused actions"
+      ],
+      "privacy": "Offline / local-first",
+      "audience": "People seeking a structured personal reset or clearer life direction",
+      "publicUrl": "",
+      "icon": "generated/icons/lifecompass-15.png"
+    },
+    {
+      "name": "LifeDocs Local",
+      "slug": "lifedocs-local",
+      "category": "Documents & Administration",
+      "description": "Bring important personal documents into one organised private view. LifeDocs Local helps users track what they have, where it belongs, and when it was last used or shared.",
+      "functions": [
+        "Organise identity, finance, property, education, health, and administrative records",
+        "Add or scan document records",
+        "Track download and sharing history",
+        "Search, filter, edit, back up, and review important information"
+      ],
+      "privacy": "Offline / local-first",
+      "audience": "Individuals and families managing important life administration",
+      "publicUrl": "",
+      "icon": "generated/icons/lifedocs-local.png"
+    },
+    {
+      "name": "MyLifeStory",
+      "slug": "mylifestory",
+      "category": "Legacy & Memories",
+      "description": "Turn a lifetime of experiences into a story worth preserving. MyLifeStory guides people through life chapters and brings together memories, lessons, photographs, voice recordings, and documents.",
+      "functions": [
+        "Write memories through guided life chapters",
+        "Add photographs, voice recordings, and documents",
+        "Organise experiences into a personal autobiography",
+        "Create an encrypted backup for long-term preservation"
+      ],
+      "privacy": "Offline / local-first",
+      "audience": "Older adults, retired people, and families preserving a personal legacy",
+      "publicUrl": "",
+      "icon": "generated/icons/mylifestory-offline.png"
+    },
+    {
+      "name": "PeopleVault",
+      "slug": "peoplevault",
+      "category": "Relationships & People",
+      "description": "Keep important relationships from fading into a forgotten contact list. PeopleVault helps users organise their network and remember when it may be time to reconnect.",
+      "functions": [
+        "Organise personal and professional contacts into meaningful groups",
+        "Track the last interaction and communication method",
+        "Filter people by company, industry, location, and relationship",
+        "Surface connections that may be worth contacting next"
+      ],
+      "privacy": "Offline / local-first",
+      "audience": "People managing a growing personal or professional network",
+      "publicUrl": "",
+      "icon": "generated/icons/peoplevault-offline.png"
+    },
+    {
+      "name": "RelationSense",
+      "slug": "relationsense",
+      "category": "Relationships & People",
+      "description": "Understand a relationship through your own lived experiences. RelationSense helps users privately record meaningful moments and observe patterns over time without monitoring another person.",
+      "functions": [
+        "Record supportive, difficult, and revealing relationship moments",
+        "Observe patterns around trust, boundaries, reliability, and accountability",
+        "Review personal observations through timelines and visual summaries",
+        "Keep every entry private on the device"
+      ],
+      "privacy": "Offline / local-first",
+      "audience": "People who want to reflect on a relationship calmly and privately",
+      "publicUrl": "",
+      "icon": "generated/icons/relationsense-offline.png"
+    },
+    {
+      "name": "TourShield Offline",
+      "slug": "tourshield-offline",
+      "category": "Travel & Safety",
+      "description": "Travel with practical local knowledge in your pocket. TourShield brings together city guidance, common risks, emergency information, and cultural tips that remain available offline.",
+      "functions": [
+        "Explore destination guidance without an internet connection",
+        "Recognise common tourist scams and places requiring caution",
+        "Access practical emergency information",
+        "Discover attractions, local specialities, and cultural guidance"
+      ],
+      "privacy": "Offline / local-first",
+      "audience": "Travellers who want practical city information before and during a trip",
+      "publicUrl": "",
+      "icon": "generated/icons/tourshield-offline.png"
+    },
+    {
+      "name": "VisitWise",
+      "slug": "visitwise",
+      "category": "Property & Finance",
+      "description": "Compare homes with facts instead of memory. VisitWise helps buyers evaluate every property visit through structured scores, costs, and financing estimates.",
+      "functions": [
+        "Score the apartment, building, location, transport, and amenities",
+        "Estimate mortgage payments and purchase costs",
+        "Compare saved properties through clear rankings",
+        "Track price per square metre and renovation considerations"
+      ],
+      "privacy": "Offline / local-first",
+      "audience": "Home buyers comparing several apartments or houses",
+      "publicUrl": "",
+      "icon": "generated/icons/visitwise.png"
+    }
+  ]
+}

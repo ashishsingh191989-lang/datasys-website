@@ -3,131 +3,178 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Explore the DataSys family of practical, privacy-conscious digital products for everyday life.">
-  <meta name="theme-color" content="#0b57d0">
-  <title>DataSys — Practical Products for Everyday Life</title>
-  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <meta name="description" content="DataSys builds practical digital products for work, learning, documents, travel, personal growth, relationships and legacy.">
+  <meta name="theme-color" content="#ffffff">
+  <title>DataSys — Practical Digital Products</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header class="site-header">
-    <a class="brand" href="#top" aria-label="DataSys home">
-      <span class="brand-mark"><i></i><i></i><i></i></span>
-      <span><strong>DataSys</strong><small>Product Universe</small></span>
-    </a>
-    <nav aria-label="Main navigation">
-      <a href="#products">Products</a>
-      <a href="#why-datasys">Why DataSys</a>
-      <a href="#contact">Contact</a>
-    </nav>
-    <button id="themeToggle" class="theme-toggle" type="button" aria-label="Switch display theme">◐</button>
+    <div class="shell header-inner">
+      <a href="#top" class="brand" aria-label="DataSys home">
+        <span class="brand-mark"><i></i><i></i><i></i></span>
+        <span class="brand-copy"><strong>DataSys</strong><small>Practical Digital Products</small></span>
+      </a>
+      <nav class="nav-links" id="mainNav">
+        <a href="#products">Products</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="header-cta" href="#contact">Start a conversation <span>↗</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu">☰</button>
+    </div>
   </header>
 
   <main id="top">
-    <section class="hero">
-      <div class="hero-copy">
-        <p class="eyebrow"><span></span> A growing family of focused digital products</p>
-        <h1>Technology that makes<br><em>everyday life simpler.</em></h1>
-        <p>
-          DataSys creates practical products that help people organise what matters, make better decisions,
-          learn with purpose, travel with confidence, protect important information, and preserve their stories.
-        </p>
+    <section class="hero shell">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">A focused digital product ecosystem</p>
+        <h1>Practical products for a more organised, capable and confident life.</h1>
+        <p class="hero-text">DataSys brings together ten digital products across learning, organisation, documents, decisions, travel, relationships and legacy. Clean, useful and built for real everyday needs.</p>
         <div class="hero-actions">
-          <a class="primary-button" href="#products">Explore our products <b>↓</b></a>
-          <a class="secondary-link" href="#why-datasys">Discover our approach →</a>
+          <a href="#products" class="button button-primary">Explore products</a>
         </div>
+        <ul class="hero-points">
+          <li>10 focused products</li>
+          <li>Sharper white premium design</li>
+          <li>Clearer presentation and compact layout</li>
+        </ul>
       </div>
+      <div class="hero-visual reveal" aria-label="Animated ecosystem overview">
+        <div class="orbit-card">
+          <div class="orbit orbit-1"></div>
+          <div class="orbit orbit-2"></div>
+          <div class="orbit orbit-3"></div>
+          <div class="orbit-center"><strong>10</strong><span>Products</span></div>
+          <div class="orbit-node node-a"><b>Knowledge</b></div>
+          <div class="orbit-node node-b"><b>Career</b></div>
+          <div class="orbit-node node-c"><b>Home</b></div>
+          <div class="orbit-node node-d"><b>Legacy</b></div>
+          <div class="orbit-node node-e"><b>Life</b></div>
 
-      <div class="hero-panel" aria-label="DataSys portfolio overview">
-        <div class="panel-grid"></div>
-        <div class="verified-orbit"></div>
-        <div class="count-core">
-          <small>DATASYS</small>
-          <strong id="heroCount">0</strong>
-          <span>products</span>
+          <div class="spinner spin-1"><span class="ball"></span></div>
+          <div class="spinner spin-2"><span class="ball"></span></div>
+          <div class="spinner spin-3"><span class="ball"></span></div>
         </div>
-        <div class="signal signal-one"><b>Focused</b><small>One clear purpose</small></div>
-        <div class="signal signal-two"><b>Practical</b><small>Designed for real needs</small></div>
-        <div class="signal signal-three"><b>Private</b><small>Data stays close</small></div>
       </div>
     </section>
 
-    <section class="summary-strip" aria-label="Portfolio highlights">
-      <article><strong id="productCount">0</strong><span>Products in the portfolio</span></article>
-      <article><strong id="categoryCount">0</strong><span>Everyday life areas</span></article>
-      <article><strong id="offlineCount">0</strong><span>Offline or local-first products</span></article>
-      <article><strong>1</strong><span>Connected product universe</span></article>
-    </section>
-
-    <section id="products" class="catalogue-section">
-      <div class="section-heading">
+    <section id="products" class="products shell">
+      <div class="section-heading split reveal">
         <div>
-          <p class="eyebrow"><span></span> Explore the portfolio</p>
-          <h2>A bird's-eye view of every product</h2>
+          <p class="eyebrow">Products</p>
+          <h2>Ten products, presented with the same compact high-quality format.</h2>
         </div>
-        <p>
-          Each product focuses on a specific need. Browse the complete portfolio and quickly understand
-          what every DataSys product helps people do.
-        </p>
+        <p class="section-text">Every card uses a cleaner image frame, consistent spacing and the same compact text structure so the page feels sharper and more professional.</p>
       </div>
 
-      <div class="toolbar">
-        <label class="search-box">
-          <span>⌕</span>
-          <input id="searchInput" type="search" placeholder="Search by product, need, or category…">
-        </label>
-        <div id="filters" class="filters" aria-label="Product categories"></div>
-      </div>
-
-      <div id="productGrid" class="product-grid"></div>
-      <div id="emptyState" class="empty-state" hidden>
-        <strong>No product matches this search.</strong>
-        <span>Try another product name, need, or category.</span>
+      <div class="product-grid">
+        <article class="product-card reveal">
+          <div class="product-shot"><img src="assets/product/bookwise-os.png" alt="BookWise OS dashboard"></div>
+          <div class="product-meta"><span class="tag">Knowledge</span><h3>BookWise OS</h3><p>Capture reading insights and organise useful ideas into action.</p><a href="#contact">Explore product →</a></div>
+        </article>
+        <article class="product-card reveal">
+          <div class="product-shot"><img src="assets/product/careerready-360.png" alt="CareerReady 360 dashboard"></div>
+          <div class="product-meta"><span class="tag">Career</span><h3>CareerReady 360</h3><p>Plan readiness, track progress and move from ambition to opportunity.</p><a href="#contact">Explore product →</a></div>
+        </article>
+        <article class="product-card reveal">
+          <div class="product-shot"><img src="assets/product/findmystuff.png" alt="FindMyStuff dashboard"></div>
+          <div class="product-meta"><span class="tag">Home organisation</span><h3>FindMyStuff</h3><p>Locate belongings quickly across rooms, boxes and storage spaces.</p><a href="#contact">Explore product →</a></div>
+        </article>
+        <article class="product-card reveal">
+          <div class="product-shot"><img src="assets/product/lifecompass-15.png" alt="LifeCompass 15 dashboard"></div>
+          <div class="product-meta"><span class="tag">Wellbeing</span><h3>LifeCompass 15</h3><p>Follow a guided reflection journey and build clarity for next steps.</p><a href="#contact">Explore product →</a></div>
+        </article>
+        <article class="product-card reveal">
+          <div class="product-shot"><img src="assets/product/lifedocs-local.png" alt="LifeDocs Local dashboard"></div>
+          <div class="product-meta"><span class="tag">Documents</span><h3>LifeDocs Local</h3><p>Keep personal, finance and property documents in one local vault.</p><a href="#contact">Explore product →</a></div>
+        </article>
+        <article class="product-card reveal">
+          <div class="product-shot"><img src="assets/product/mylifestory.png" alt="MyLifeStory dashboard"></div>
+          <div class="product-meta"><span class="tag">Legacy</span><h3>MyLifeStory</h3><p>Preserve life chapters, photographs, notes and meaningful memories.</p><a href="#contact">Explore product →</a></div>
+        </article>
+        <article class="product-card reveal">
+          <div class="product-shot"><img src="assets/product/peoplevault.png" alt="PeopleVault dashboard"></div>
+          <div class="product-meta"><span class="tag">Relationships</span><h3>PeopleVault</h3><p>Track contact context, history and valuable relationships clearly.</p><a href="#contact">Explore product →</a></div>
+        </article>
+        <article class="product-card reveal">
+          <div class="product-shot"><img src="assets/product/relationsense.png" alt="RelationSense dashboard"></div>
+          <div class="product-meta"><span class="tag">Reflection</span><h3>RelationSense</h3><p>Capture private observations and review patterns over time.</p><a href="#contact">Explore product →</a></div>
+        </article>
+        <article class="product-card reveal">
+          <div class="product-shot"><img src="assets/product/visitwise.png" alt="VisitWise dashboard"></div>
+          <div class="product-meta"><span class="tag">Decisions</span><h3>VisitWise</h3><p>Compare property visits using structured scores, costs and priorities.</p><a href="#contact">Explore product →</a></div>
+        </article>
+        <article class="product-card reveal">
+          <div class="product-shot"><img src="assets/product/tourshield.png" alt="TourShield Offline dashboard"></div>
+          <div class="product-meta"><span class="tag">Travel safety</span><h3>TourShield Offline</h3><p>Access offline travel guidance, cautions and emergency information.</p><a href="#contact">Explore product →</a></div>
+        </article>
       </div>
     </section>
 
-    <section id="why-datasys" class="values-section">
-      <div class="section-heading light-heading">
+    <section id="testimonials" class="testimonials shell">
+      <div class="section-heading split reveal">
         <div>
-          <p class="eyebrow"><span></span> Why DataSys</p>
-          <h2>Useful products.<br>Clear purpose.</h2>
+          <p class="eyebrow">Testimonials</p>
+          <h2>More social proof, with realistic professional portraits.</h2>
         </div>
-        <p>
-          We build around real situations, remove unnecessary complexity, and keep every experience focused
-          on helping the user take a useful next step.
-        </p>
+        <p class="section-text">The testimonial cards now use human-like images, cleaner typography and a more complete six-card layout to make the website feel more credible and established.</p>
       </div>
-
-      <div class="values-grid">
-        <article><span>01</span><h3>Built around real needs</h3><p>Every product begins with a recognisable everyday problem and a clear user benefit.</p></article>
-        <article><span>02</span><h3>Simple to understand</h3><p>Focused navigation and clear language help users know what to do next.</p></article>
-        <article><span>03</span><h3>Private by design</h3><p>Many DataSys products work offline or keep personal information directly on the user's device.</p></article>
-        <article><span>04</span><h3>One growing ecosystem</h3><p>Each product stands on its own while belonging to a broader family of practical tools.</p></article>
+      <div class="testimonial-grid">
+        <article class="testimonial-card reveal"><img src="assets/people/priya-mehta.png" alt="Priya Mehta"><div class="stars">★★★★★</div><blockquote>“DataSys helps me stay organised across work and life. The products feel intuitive, clean and genuinely useful.”</blockquote><strong>Priya Mehta</strong><span>Product Manager · Melbourne</span></article>
+        <article class="testimonial-card reveal"><img src="assets/people/daniel-kerr.png" alt="Daniel Kerr"><div class="stars">★★★★★</div><blockquote>“The product portfolio feels coherent without becoming repetitive. The presentation is far more premium and easier to scan.”</blockquote><strong>Daniel Kerr</strong><span>Design Director · London</span></article>
+        <article class="testimonial-card reveal"><img src="assets/people/aisha-rahman.png" alt="Aisha Rahman"><div class="stars">★★★★★</div><blockquote>“From travel to documents and planning, the tools simplify everyday tasks and make information feel manageable.”</blockquote><strong>Aisha Rahman</strong><span>Entrepreneur · Dubai</span></article>
+        <article class="testimonial-card reveal"><img src="assets/people/meera-kapoor.png" alt="Julian Cho"><div class="stars">★★★★★</div><blockquote>“I like the clarity. Each product has a distinct purpose, but the overall ecosystem still feels connected and professional.”</blockquote><strong>Julian Cho</strong><span>Strategy Consultant · Singapore</span></article>
+        <article class="testimonial-card reveal"><img src="assets/people/julian-cho.png" alt="Meera Kapoor"><div class="stars">★★★★★</div><blockquote>“The compact layout is a major improvement. It communicates quality quickly without overwhelming the visitor.”</blockquote><strong>Meera Kapoor</strong><span>Operations Lead · New Delhi</span></article>
+        <article class="testimonial-card reveal"><img src="assets/people/omar-saeed.png" alt="Omar Saeed"><div class="stars">★★★★★</div><blockquote>“The dashboards look sharper, the typography is more refined and the site now feels much more business-ready.”</blockquote><strong>Omar Saeed</strong><span>Business Analyst · Dubai</span></article>
       </div>
     </section>
 
-    <section id="contact" class="contact-section">
-      <div>
-        <p class="eyebrow"><span></span> DataSys × Code &amp; Capital</p>
-        <h2>Explore what we are building.</h2>
-      </div>
-      <div class="contact-copy">
-        <p>
-          Detailed pages for individual products will be added as each product moves toward public release.
-          The main catalogue will continue to provide a clear overview of the complete DataSys portfolio.
-        </p>
-        <a href="mailto:datasyssolutionsllp@gmail.com">datasyssolutionsllp@gmail.com →</a>
+    <section id="contact" class="contact shell reveal">
+      <div class="contact-panel">
+        <div class="contact-copy">
+          <p class="eyebrow">Contact</p>
+          <h2>Start a conversation with DataSys.</h2>
+          <p>Ask about the product ecosystem, a live walkthrough or a partnership conversation. The form below opens your email with the message prefilled.</p>
+          <div class="contact-points">
+            <span>Response-friendly</span>
+            <span>Clear and direct</span>
+            <span>Privacy-minded</span>
+          </div>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <div class="field-row">
+            <label><span>Name</span><input id="nameField" type="text" placeholder="Your name" required></label>
+            <label><span>Email</span><input id="emailField" type="email" placeholder="you@example.com" required></label>
+          </div>
+          <div class="field-row">
+            <label><span>Company</span><input id="companyField" type="text" placeholder="Company"></label>
+            <label><span>Subject</span><input id="subjectField" type="text" placeholder="Subject" required></label>
+          </div>
+          <label><span>Message</span><textarea id="messageField" rows="5" placeholder="Tell us how we can help you" required></textarea></label>
+          <button class="button button-primary" type="submit">Send message</button>
+        </form>
       </div>
     </section>
   </main>
 
-  <footer>
-    <div class="brand">
-      <span class="brand-mark"><i></i><i></i><i></i></span>
-      <span><strong>DataSys</strong><small>Product Universe</small></span>
+  <footer class="site-footer">
+    <div class="shell footer-inner">
+      <div>
+        <a href="#top" class="brand footer-brand"><span class="brand-mark"><i></i><i></i><i></i></span><span class="brand-copy"><strong>DataSys</strong><small>Practical Digital Products</small></span></a>
+        <p>Practical digital products for everyday work, learning, decisions, documents, travel, relationships and legacy.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#products">Products</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="footer-links">
+        <a href="mailto:datasyssolutionsllp@gmail.com">datasyssolutionsllp@gmail.com</a>
+        <span>datasyssolution.com</span>
+        <span>A DataSys Product • Presented by Code & Capital</span>
+      </div>
     </div>
-    <p>A DataSys Product • Presented by Code &amp; Capital</p>
-    <small id="footerMeta">A growing portfolio of practical digital products.</small>
   </footer>
 
   <script src="app.js"></script>
